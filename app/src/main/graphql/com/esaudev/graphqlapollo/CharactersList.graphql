@@ -1,0 +1,6 @@
+query CharactersList{
+    books {
+        title
+        author
+    }
+}

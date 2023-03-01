@@ -1,0 +1,13 @@
+type Book {
+    title: String!
+    author: String
+    genero: String!
+    editorial: String
+    fecha_publicacion: Int
+    precio: Int!
+    descripcion: String
+}
+
+type Query {
+    books: [Book]
+}
